@@ -1,0 +1,27 @@
+{
+  "character_ai": {
+    "token": "YOUR_CHARACTER_AI_TOKEN_HERE",
+    "character_id": "CHARACTER_ID_HERE"
+  },
+  "gemini": {
+    "model": "gemini-2.0-flash",
+    "key_rotation_interval": 0.5,
+    "history_size": 2
+  },
+  "pipeline": {
+    "target_message_count": 100,
+    "delay_min": 0.5,
+    "delay_max": 3.0,
+    "save_frequency": 1,
+    "create_backups": true,
+    "max_backups": 5
+  },
+  "user_persona": {
+    "name": "name of character you wanna roleplay as",
+    "personality": "Friendly and curious individual with a passion for meaningful conversations",
+    "background": "A well-read person who enjoys learning about others' experiences and perspectives",
+    "interests": "Philosophy, culture, storytelling, and understanding different viewpoints",
+    "speaking_style": "Warm and engaging, asks thoughtful questions"
+  },
+  "scenario": "A casual conversation between two individuals meeting for the first time in a comfortable setting"
+}
